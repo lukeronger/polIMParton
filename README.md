@@ -10,7 +10,7 @@ polIMParton v1.0
 
 # Description
 This package gives polarized parton distribution functions (pol. PDFs) of the proton
-starting from low Q^2 ~ 0.07 GeV^2, which are based on the analysis to
+starting from low Q^{2} ~ 0.07 GeV^2, which are based on the analysis to
 deep inelastic scattering data applying DGLAP equations with nonlinear
 corrections. 
 
