@@ -44,13 +44,13 @@ in proton and polarized gluon distribution in neutron at high Q^2.
 
 ./test.cpp can be modified as users' wants.
 
-To run the example:
+**To run the example:**
 
-$ cd polIMParton
+> cd polIMParton
 
-$ cmake .
+> cmake .
 
-$ make
+> make
 
-$ ./polPDFtest
+> ./polPDFtest
 
