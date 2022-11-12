@@ -12,10 +12,14 @@ polIMParton v1.0
 This package gives parton distribution functions (PDFs) of the proton
 starting from low Q^2 ~ 0.07 GeV^2, which are based on the analysis to
 deep inelastic scattering data applying DGLAP equations with nonlinear
-corrections. Refs:
-"An analysis of polarized parton distribution functions with nonlinear QCD evolution equations"
+corrections. 
+
+Refs:
+
+"An analysis of polarized parton distribution functions with nonlinear QCD evolution equations", 
 C. Han, G. Xie, R. Wang, X. Chen, Nuclear Physics B 985 (2022) 116012;
-"Dynamical parton distributions from DGLAP equations with nonlinear corrections"
+
+"Dynamical parton distributions from DGLAP equations with nonlinear corrections", 
 R. Wang, X. Chen, Chinese Physics C 41 (2017) 05313.
  
 
@@ -37,11 +41,16 @@ IMPORTANT!!
 
 ./test.cpp gives an example to get polarized up valence quark distribution
 in proton and polarized gluon distribution in neutron at high Q^2.
+
 ./test.cpp can be modified as users' wants.
 
 To run the example:
+
 $ cd polIMParton
+
 $ cmake .
+
 $ make
+
 $ ./polPDFtest
 
