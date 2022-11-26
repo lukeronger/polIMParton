@@ -37,7 +37,7 @@ int main()
     {
         double x = exp(log(1e-7)+i*lnxstep);
         outdata1<<x<<" "<<  x*(proton.getPolPDF(1, x,1.0)-proton.getPolPDF(-1, x,1.0));
-	outdata1<<" "<<0<<" "<< x*(proton.getPolPDFError(2, x,1.0)+proton.getPolPDFError(-2, x,1.0)) <<endl;
+	outdata1<<" "<<0<<" "<< x*(proton.getPolPDFError(1, x,1.0)+proton.getPolPDFError(-1, x,1.0)) <<endl;
         outdata2<<x<<" "<<  x*(neutron.getPolPDF(0, x,100.0))  <<" "<<0<<" "<<x*(neutron.getPolPDFError(0, x,100.0))<<endl;
     }
 
